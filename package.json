@@ -1,0 +1,49 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "knex": "knex",
+    "start": "node server",
+    "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "boom": "7.x.x",
+    "faker": "^4.1.0",
+    "hapi-swagger": "^9.3.0",
+    "haute-couture": "3.x.x",
+    "inert": "^5.1.2",
+    "iut-encrypt": "github:DamienBoussardon/iut-encrypt",
+    "joi": "^14.3.1",
+    "mailgen": "^2.0.7",
+    "ng": "0.0.0",
+    "nodemailer": "^2.7.2",
+    "objection": "1.x.x",
+    "pg": "^7.8.0",
+    "schmervice": "^1.1.0",
+    "schwifty": "4.x.x"
+  },
+  "peerDependencies": {
+    "knex": "0.16.x"
+  },
+  "devDependencies": {
+    "code": "5.x.x",
+    "confidence": "4.x.x",
+    "dotenv": "6.x.x",
+    "eslint": "5.x.x",
+    "eslint-config-hapi": "12.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "glue": "5.x.x",
+    "hapi": "18.x.x",
+    "hpal": "^1.3.0",
+    "hpal-debug": "1.x.x",
+    "install": "^0.12.2",
+    "lab": "18.x.x",
+    "toys": "2.x.x",
+    "vision": "5.x.x",
+    "hoek": "6.x.x",
+    "knex": "0.16.x",
+    "sqlite3": "4.x.x"
+  }
+}
