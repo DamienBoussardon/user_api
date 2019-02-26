@@ -2,3 +2,6 @@ node_modules
 .tmp
 server/.env
 .git
+.env
+.package-lock.json
+.idea/

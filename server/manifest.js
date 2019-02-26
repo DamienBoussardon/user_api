@@ -5,7 +5,9 @@ const Confidence = require('confidence');
 const Toys = require('toys');
 
 // Pull .env into process.env
-Dotenv.config({ path: `${__dirname}/.env` });
+//Dotenv.config({ path: `${__dirname}/.env` });
+Dotenv.config({ path: `${__dirname}\\..\\.env` });
+
 
 // Glue manifest as a confidence store
 module.exports = new Confidence.Store({
@@ -48,9 +50,9 @@ module.exports = new Confidence.Store({
                             connection: {
                                 host     : process.env.POSTGRES_HOST || 'localhost',
                                 port     : process.env.POSTGRES_PORT || 5432,
-                                user     : process.env.POSTGRES_USER || 'postgres',
-                                password : process.env.POSTGRES_PASSWORD || '',
-                                database : process.env.POSTGRES_DATABASE || 'tpnode'
+                                user     : process.env.POSTGRES_USER || 'hapi',
+                                password : process.env.POSTGRES_PASSWORD || 'hapi',
+                                database : process.env.POSTGRES_DATABASE || 'unilim'
                             }
                         }
                     },
