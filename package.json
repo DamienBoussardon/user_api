@@ -18,7 +18,7 @@
     "joi": "^14.3.1",
     "mailgen": "^2.0.7",
     "ng": "0.0.0",
-    "nodemailer": "^2.7.2",
+    "nodemailer": "^6.4.16",
     "objection": "1.x.x",
     "pg": "^7.8.0",
     "schmervice": "^1.1.0",
