@@ -25,7 +25,7 @@
     "schwifty": "4.x.x"
   },
   "peerDependencies": {
-    "knex": "0.19.x"
+    "knex": "2.4.x"
   },
   "devDependencies": {
     "code": "5.x.x",
@@ -43,7 +43,7 @@
     "toys": "2.x.x",
     "vision": "5.x.x",
     "hoek": "6.x.x",
-    "knex": "0.19.x",
+    "knex": "2.4.x",
     "sqlite3": "4.x.x"
   }
 }
